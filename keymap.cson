@@ -1,0 +1,26 @@
+
+# See http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+
+'atom-text-editor':
+
+    'ctrl-alt->': 'key-binding-resolver:toggle'
+
+    'ctrl-.': 'symbols-view:go-to-declaration'
+    'ctrl->': 'symbols-view:return-from-declaration'
+    # 'ctrl-.': 'atom-ctags:go-to-declaration'
+    # 'ctrl->': 'atom-ctags:return-from-declaration'
+
+    'alt-b': 'bookmarks:toggle-bookmark'
+    'alt-down': 'bookmarks:jump-to-next-bookmark'
+    'alt-up': 'bookmarks:jump-to-previous-bookmark'
+
+    'alt-w': 'editor:toggle-soft-wrap'
+
+# git-blame package
+'atom-text-editor:not([mini])':
+    'cmd-b': 'git-blame:toggle'
+
+# build package
+'atom-workspace, atom-text-editor':
+    'f6':       'build:error-match'
+    'shift-f6': 'build:error-match-first'

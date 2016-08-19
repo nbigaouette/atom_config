@@ -8,6 +8,7 @@ highlight-selected
 language-cmake
 language-qml
 linter
+linter-ui-default
 linter-clang
 linter-cppcheck
 metrics

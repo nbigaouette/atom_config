@@ -1,0 +1,47 @@
+"*":
+  build:
+    refreshOnShowTargetList: true
+  core:
+    autoHideMenuBar: true
+    customFileTypes:
+      "source.cpp": [
+        "h"
+        "txx"
+      ]
+      "source.shell": [
+        "bb"
+        "bbappend"
+        "bbclass"
+        "conf"
+        "inc"
+      ]
+      "text.xml": [
+        "qrc"
+      ]
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 13
+    preferredLineLength: 114
+    showInvisibles: true
+    tabLength: 4
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.shell"
+      "source.cpp"
+      "source.python"
+    ]

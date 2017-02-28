@@ -23,6 +23,7 @@
     autoIndentOnPaste: false
     fontSize: 13
     preferredLineLength: 114
+    showIndentGuide: true
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true

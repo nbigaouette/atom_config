@@ -46,3 +46,5 @@
       "source.cpp"
       "source.python"
     ]
+  welcome:
+    showOnStartup: false
